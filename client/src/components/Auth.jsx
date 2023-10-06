@@ -26,7 +26,8 @@ const Auth = () => {
 
         const { username, password, phoneNumber } = form;
 
-        const URL = 'https://chatapplication-jvvc.onrender.com//auth';
+        const URL = 'https://chatapplication-jvvc.onrender.com/auth';
+
         // const URL = 'https://medical-pager.herokuapp.com/auth';
 
         const { data: { token, userId, hashedPassword, fullName } } = await axios.post(`${URL}/${isSignup ? 'signup' : 'login'}`, {
