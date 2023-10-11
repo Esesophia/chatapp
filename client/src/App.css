@@ -983,7 +983,6 @@ background-color:var(--clr-grey) ;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     font-weight: bold;
-    margin-right: 16px;
     cursor: pointer;
     margin-bottom:10px;
     z-index: 2;
@@ -1740,7 +1739,7 @@ background-color:var(--clr-grey) ;
     }
   
     .team-channel-header__name.user {
-      font-size: 10px;
+      font-size: 13px;
       margin: 5px;
       text-align: center;
     }
